@@ -162,7 +162,11 @@ h4 ,h2{
     border: 10px solid #d9c2a3;
 }
 
+#face {
+    height: 25%;
+    width: 25%;
 
+}
 
 #struct {
     display: grid;
