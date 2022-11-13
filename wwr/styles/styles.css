@@ -46,7 +46,7 @@ footer p{
 footer p a:hover {
     text-decoration: underline;
 }    
-h4 {
+h4 ,h2{
     color: #fff3b0;
 }
 #logo_link{
@@ -157,6 +157,43 @@ h4 {
     width: 80px;
 }
 
+#query {
+    background-color: #335c67;
+    border: 10px solid #d9c2a3;
+}
+
+
+
+#struct {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+#results {
+    border: 10px solid #d9c2a3;
+    background-color: #335c67;
+    grid-column: 2/4;
+    grid-row: 1/4;
+}
+
+#topics {
+    border: 10px solid #d9c2a3;
+    background-color: #335c67;
+    grid-column: 1/2;
+    grid-row: 1/4;
+    text-align: center;
+
+}
+
+#resources{
+    background-color: #335c67;
+    border: 10px solid #d9c2a3;
+    width: auto;
+    height: auto;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
