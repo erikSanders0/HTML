@@ -30,12 +30,12 @@ nav a:hover {
   background-color: #FEFCFB; 
   color: #1c66ab;
 }
-
 footer {
   background-color: #1c66ab;
   display: grid;
   grid-template-columns: 150px auto;
 } 
+
 /*Body*/
 .body-text {
   display: grid;
@@ -62,6 +62,7 @@ footer {
   opacity: .6;
   transform: scale(1.1);
 }
+
 #line-text-second {
   grid-row: 2/3;
   grid-column: 3/4;
@@ -115,7 +116,7 @@ p {
 
 /* Hide the images by default */
 .mySlides {
-  display:none;
+  display:none;
 }
 
 /* Next & previous buttons */
@@ -193,17 +194,38 @@ p {
 }
 /* ################################################ CARASOLE: DO NOT CHANGE ################################################ */
 
+#banner-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 
+#info-block img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#info-block p{
+  text-align: center;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+#info-block{
+  border-top: 3px solid #1282A2;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #FEFCFB   ;
-  --secondary-color: #1c66ab ;
-  --accent1-color: #0A1128;
-  --accent2-color: #1282A2;
+  --primary-color:   #FEFCFB;
+  --secondary-color: #1c66ab;
+  --accent1-color:   #0A1128;
+  --accent2-color:   #1282A2;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Nunito";
