@@ -39,7 +39,7 @@ footer {
 /*Body*/
 .body-text {
   display: grid;
-  grid-template-columns: 3fr;
+  grid-template-columns: 3;
 }
 .body-text img {
   width: 100%;
@@ -115,7 +115,7 @@ p {
 
 /* Hide the images by default */
 .mySlides {
-  display:none;
+  display:none;
 }
 
 /* Next & previous buttons */
