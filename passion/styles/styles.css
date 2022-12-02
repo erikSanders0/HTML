@@ -205,17 +205,16 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
+
 }
 #info-block p{
   text-align: center;
   margin-right: 200px;
   margin-left: 200px;
+  border-bottom: 3px solid #1282A2;
+
 }
-#info-block{
-  border-top: 3px solid #1282A2;
-  margin-left: 100px;
-  margin-right: 100px;
-}
+
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
