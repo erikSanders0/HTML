@@ -39,7 +39,7 @@ footer {
 /*Body*/
 .body-text {
   display: grid;
-  grid-template-columns: 3;
+  grid-template-columns: 3fr;
 }
 .body-text img {
   width: 100%;
