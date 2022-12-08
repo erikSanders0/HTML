@@ -48,6 +48,7 @@ footer {
   transition: transform .5s;
   box-shadow: 5px 5px 10px #1282A2;
   width: 80%;
+  margin-bottom: 20px;
 }
 
 #line-text-first {
@@ -56,6 +57,7 @@ footer {
 }
 #line-img-first {
   grid-column: 2/3;
+  text-align: center;
 }
 #line-img-first:hover{
   opacity: .6;
@@ -68,6 +70,7 @@ footer {
 }
 #line-img-second {
   grid-column: 1/2;
+  text-align: center;
 }
 #line-img-second:hover{
   opacity: .6;
@@ -81,6 +84,7 @@ footer {
 }
 #line-img-third {
   grid-column: 2/3;
+  text-align: center;
 }
 #line-img-third:hover{
   opacity: .6;
@@ -102,6 +106,7 @@ p {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  margin-top: 25px;
 }
 
 /* Hide the images by default */
