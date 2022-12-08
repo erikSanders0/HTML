@@ -41,7 +41,6 @@ footer {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 5%;
-  grid-gap: 50%;
 }
 
 .body-img{
@@ -84,7 +83,6 @@ footer {
   grid-column: 1/2;
 }
 #line-img-third {
-  grid-row: 3/4;
   grid-column: 2/3;
   margin-left: 50px;
 }
