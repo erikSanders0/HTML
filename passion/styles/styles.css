@@ -55,7 +55,6 @@ footer {
   grid-column: 1/2;
 }
 #line-img-first {
-  grid-row: 1/2;
   grid-column: 2/3;
 }
 #line-img-first:hover{
@@ -68,9 +67,7 @@ footer {
   grid-column:2/3;
 }
 #line-img-second {
-  grid-row: 2/3;
   grid-column: 1/2;
-
 }
 #line-img-second:hover{
   opacity: .6;
@@ -84,19 +81,12 @@ footer {
 }
 #line-img-third {
   grid-column: 2/3;
-  margin-left: 50px;
 }
 #line-img-third:hover{
   opacity: .6;
   transform: scale(1.1);
 }
 
-#line-img-third img{
-  border: 10px solid #1c66ab;
-  transition: transform .5s;
-  box-shadow: 5px 5px 10px #1282A2;
-  width: 80%;
-}
 p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-color);
