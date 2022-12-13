@@ -124,6 +124,9 @@ p {
   margin-top: 25px;
 }
 
+.slideshow-container img{
+  border-radius: 25px;
+}
 /* Hide the images by default */
 .mySlides {
   display:none;
@@ -204,18 +207,27 @@ p {
 }
 /* ################################################ CARASOLE: DO NOT CHANGE ################################################ */
 
-#banner-img{
+.banner-img1{
   display: block;
+  border-radius: 50px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
-  width: 100%;
+  width: 90%;
 }
-
+.banner-img2{
+  display: block;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  width: 75%;
+}
 #info-block img{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 30%;
 
 }
 #info-block p{
@@ -223,7 +235,10 @@ p {
   margin-right: 200px;
   margin-left: 200px;
   border-bottom: 3px solid #1282A2;
+}
 
+#info-block h4{
+  text-align: center;
 }
 
 /* if you are using any Google fonts change the font names below to your fonts. 

@@ -22,23 +22,24 @@
         </nav>
     </header>
 
-    <img id="banner-img" src="images/math-circles-copy.jpg" alt="Cool design">
+    <img class="banner-img1" src="images/math-circles-copy.jpg" alt="Cool design">
 
+    <h1 style="text-align: center;">Principles of Machine Learning</h1>
+    <p style="text-align: center;">There are very important principles that are used in machine learning. Principles of how work, gini, loss, gradient decent, some of the important ideas that allow models to learn are entropy, loss, and gradients. These ideas are at play in different models and some of them overlap. </p>
 
     <div id="info-block">
+        <h4>Entropy</h4>
         <img src="images/entropy.png" alt="entropy diagram">
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Entropy measures uncertainty or disorder. High entropy indicates high disorder. We can see that entropy is maximized at p=0.5. A value of p=0.5 means we are 50 certain that a sample belongs to class, thus the uncertainty is great. However, at p=0.9, we are 90 certain, so entropy is low. At p=0.1 , although we are 10 only sure that the sample belongs to one class, but that also means we 90 are sure it belongs to the other, thus our certainty is still high.</p>
     
  
-        <img src="images/entropy.png" alt="entropy diagram">
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h4>Loss</h4>
+        <img src="images/loss.webp" alt="entropy diagram">
+        <p>Loss is the penalty for a bad prediction. That is, loss is a number indicating how bad the model's prediction was on a single example. If the model's prediction is perfect, the loss is zero; otherwise, the loss is greater. </p>
     
-
-        <img  src="images/entropy.png" alt="entropy diagram">
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h4>Gradient</h4>
+        <img  src="images/SGD.jpeg" alt="entropy diagram">
+        <p> A gradient simply measures the change in all weights with regard to the change in error. You can also think of a gradient as the slope of a function. The higher the gradient, the steeper the slope and the faster a model can learn. But if the slope is zero, the model stops learning. In mathematical terms, a gradient is a partial derivative with respect to its inputs. </p>
     </div>
 
 
